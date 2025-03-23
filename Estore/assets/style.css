@@ -254,6 +254,7 @@ input[type=text]{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; 
+
 }
 .hero_image{
     background-image: url(image/hero_man.png.webp);
@@ -263,14 +264,7 @@ input[type=text]{
     margin-top: 35px;
 }
 .main_hero{
-    display: flex;
-    align-items: center; 
-    /* justify-content: space-between; */
-}
-.hero_caption{
-    float: right;
-    margin-left: 100px;
-    padding-left: 100px;
+    width: 250vh;
 }
 .hero_span{
     font-size: 36px;
@@ -278,7 +272,7 @@ input[type=text]{
     color: #2577fd;
 }
 h1{
-    font-size: 82px;
+    font-size: 90px;
     font-weight: bold;
     font-family: poppins;
 }
@@ -290,5 +284,28 @@ h1{
     height: 50px;
     width: 150px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 20px ;
+}
+.hero_main{
+    margin-top: 200px;
+}
+/* main_crate */
+.shop_area{
+    margin-top: 100px;
+}
+.shop_title{
+    font-size: 48px;
+    font-family: poppins;
+    text-align: center;
+}
+.shop_images{
+    display: flex;
+    gap: 4rem;
+}
+.shop_image{
+    width: 500px;
+ } 
+img{
+    width: 100%;
+    height: 100%;
 }
