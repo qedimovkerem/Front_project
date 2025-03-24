@@ -7,6 +7,9 @@ header{
     height: 80px;
     background-color: #ffffff;
 }
+ul{
+    list-style: none;
+}
 a{
     text-decoration: none;
     color: #000000;
@@ -160,14 +163,14 @@ input[type=text]{
 
 }
 .hero_image{
-    background-image: url(image/hero_man.png.webp);
+    /* background-image: url(image/hero_man.png.webp); */
     height: 800px;
     width: 750px;
-    background-repeat: no-repeat;
-    margin-top: 35px;
+    /* background-repeat: no-repeat; */
+    /* margin-top: 35px; */
 }
 .main_hero{
-    width: 88rem;
+    /* width: 88rem; */
     display: flex;
     gap: 8rem;
 }
@@ -206,9 +209,7 @@ h1{
 }
 .shop_images{
     display: flex;
-    /* gap: 10px; */
-    /* justify-content: center; */
-    /* margin-left: 30px; */
+    flex-wrap: wrap;
 }
 .shop_image{
     width: 480px;
@@ -286,6 +287,145 @@ h3{
     left: 20px;
 }
 /* latest product create */
+.best_product{
+    background-image: url(image/card.png.webp);
+    height: 500px;
+    margin-top: 200px;
+    position: relative;
+}
+.best_product_image{
+    height: 600px;
+    width: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+}
+.best_product_title{
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+    font-size: 56px;
+    padding-left: 100px;
+}
+.best_product_image2{
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+}
+.best-product_title2{
+    text-align: center;
+}
+.best_product_btn{
+    margin-left: 500px;
+    padding: 0px 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+/* best product crate */
+#best_collection{
+    margin-top: 200px;
+    position: relative;
+}
+.best_collection_image1{
+    width: 250px;
+    height: 100px;
+    margin-top: 80px;
+}
+.best_collection_h{
+    font-size: 56px;
+}
+.best_collection_p{
+    font-size: 20px;
+}
+.best_collection_btn{
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+}
+.best_collection_image2{
+    height: 600px;
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+}
+.single_image{
+    height: 120px;
+    width: 150px;
+    float: right;
+}
+.best_third{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 3rem;
+}
+.single_cap{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+/* best_collection finish */
+.latest_area_back{
+    margin-top: 150px;
+    background-image: url(image/latest-offer.png.webp);
+    height: 300px;
+}
+.latest_area_title{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: bold;
+}
+.latest_area_p{
+    text-align: center;
+    font-size: 20px;
+}
+.latset_area_search{
+    outline: 0px;
+    border: 0;
+    margin-top: 8px;
+}
+.latest_search{
+    height: 50px;
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin-top: 170px;
+}
+.latest_area_btn{
+    float: right;
+    height: 50px;
+    border-radius: 30px;
+}
+/* latest_area finish */
+#shop_method_area{
+    margin-top: 100px;
+}
+.main_icon{
+    text-align: center;
+    width: 200px;
+    margin: 0px 100px;
+}
+/* shop method are finish */
+.sosial_medias{
+    display: flex;
+    margin-top: 100px;
+}
+/* sosial media finish */
+.footer-area{
+    margin-top: 200px;
+}
+.footer-logo{
+    width: 100px;
+}
+.footer-social{
+    float: right;
+    padding: 30px;
+}
+
 @media (max-width:1200px){
     .nav_search{
         display: none;
@@ -296,6 +436,42 @@ h3{
     .navbar_icon1{
         left: 35px;
     }
+    /* navbar responsiv finish */
+    .hero_image{
+        width: 600px;
+        height: 700px;
+        margin-top: 100px;
+    }
+    .hero_main{
+        width: 150px;
+        height: 200px;
+        margin-left: 40px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    /* hero finish */
+    .shop_images{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 10rem;
+        row-gap: 2rem;
+    }
+    /* shop catagory finish */
+    .best_product_image{
+        left: 10px;
+    }
+    .best_product_btn{
+        margin-left: 250px;
+    }
+    /* best proproduct finish */
+    .best_collection_h{
+        font-size: 36px;
+    }
+    .best_collection_image2{
+        left: 400px;
+    }
+    /* sosial media finish */
   }
   @media (min-width:768px) and (max-width:992px){
     header .navbar_search, .nav_navbar, .nava_logo{
@@ -343,6 +519,64 @@ h3{
         position: absolute; 
         top: 65%;
     }
+    /* navbar responsiv finish */
+    .hero_span{
+        font-size: 20px;
+    }
+    /* hero finish */
+    .shop_images{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    .shop_image{
+        width: 600px;
+        height: 500px;
+    }
+    /* shop catagory finish */
+    .best_product{
+        height: 400px;
+    }
+    .best_product_image{
+        display: none;
+    }
+    .best_product_title{
+        font-size: 48px;
+        text-align: start;
+        padding-top: 30px;
+    }
+    .best-product_title2{
+        text-align: start;
+        margin-left: 100px;
+    }
+    .best_product_btn{
+        margin-left: 100px;
+    }
+    /* best product finish */
+    .best_collection_image2{
+        display: none;
+    }
+    .best_collection_h{
+        font-size: 24px;
+    }
+    /* best collection finish */
+    .latest_area_title{
+        margin-top: 30px;
+    }
+    .latest_search{
+        width: 290px;
+    }
+    /* latest area finish */
+    .main_icon{
+        width: 150px;
+    }
+    /* shop method finish */
+    .sosial_medias{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 0.3rem;
+    }
+    /* sosial media finish */
   }
   @media (max-width:768px){
     header, .nav_logo, .nav_navbar, .nav_search{
@@ -385,5 +619,58 @@ h3{
         top: 40px;
         left: 115px;
     }
+    /* navbar responsiv finish */
+    .hero_image{
+        width: 400px;
+    }
 
+    /* hero finish */
+    .shop_images{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    /* shop category crate */
+    .best_product{
+        height: 400px;
+    }
+    .best_product_image{
+        display: none;
+    }
+    .best_product_title{
+        font-size: 48px;
+        text-align: start;
+        padding-top: 30px;
+    }
+    .best-product_title2{
+        text-align: start;
+        margin-left: 100px;
+    }
+    .best_product_btn{
+        margin-left: 100px;
+    }
+    /* best product create */
+    .best_collection_image2{
+        display: none;
+    }
+    /* best collection finish */
+    .latest_area_title{
+        font-size: 36px;
+        margin-top: 10px;
+    }
+    .latest_search{
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+    /* latest area finish */
+    .main_icon{
+        width: 300px;
+        margin-bottom: 100px;
+    }
+    /* shop method area finish */
+    .sosial_medias{
+        display: flex;
+        flex-direction: column;
+    }
+    /* sosial media finish */
   }
