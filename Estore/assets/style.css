@@ -163,14 +163,10 @@ input[type=text]{
 
 }
 .hero_image{
-    /* background-image: url(image/hero_man.png.webp); */
     height: 800px;
     width: 750px;
-    /* background-repeat: no-repeat; */
-    /* margin-top: 35px; */
 }
 .main_hero{
-    /* width: 88rem; */
     display: flex;
     gap: 8rem;
 }
