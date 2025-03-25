@@ -570,7 +570,7 @@ h3{
     .sosial_medias{
         display: flex;
         flex-wrap: wrap;
-        row-gap: 0.3rem;
+        row-gap: 0.4rem;
     }
     /* sosial media finish */
   }
