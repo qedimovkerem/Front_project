@@ -361,4 +361,20 @@ input[type=text]{
         font-size: 12px;
         width: 200px;
       }
+      .login_title{
+        margin-left: 0px;
+      }
+      .username{
+        margin-left: 0px;
+        width: 200px;
+      }
+      .login_btn{
+        width: 200px;
+      }
+      .forget{
+        display: none;
+      }
+      .login_content{
+        margin-left: 0px;
+      }
 }

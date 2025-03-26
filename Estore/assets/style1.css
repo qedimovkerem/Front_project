@@ -243,7 +243,6 @@ select{
 }
 .carousel-title{
     text-align: center;
-    width: 500px;
 }
 .carousel-name{
     display: inline-block;
@@ -371,6 +370,11 @@ h3{
         font-size: 20px;
       }
        /* product list finish */
+       .carousel-title{
+        width: 100px;
+        height: 200px;
+        
+       }
        .main_icon{
         width: 150px;
     }
@@ -435,5 +439,8 @@ h3{
         width: 300px;
         margin-bottom: 100px;
     }
-        /* shop method area finish */ 
+        /* shop method area finish */
+        .search_email{
+            width: 260px;
+        }
 }

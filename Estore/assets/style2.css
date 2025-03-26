@@ -329,8 +329,8 @@ h3{
     }
       /* navbar responsiv finish */
       .carousel{
+        width: 600px;
         margin-left: 100px;
-        width: 700px;
     }
 }
 @media (max-width:768px){
@@ -380,10 +380,12 @@ h3{
       .carousel{
         width: 300px;
         margin-top: 50px;
-       margin-left: 150px;
     }
      /*carousel finsh  */
      h3{
         font-size: 20px;
+     }
+     .search_email{
+        width: 260px;
      }
 }
